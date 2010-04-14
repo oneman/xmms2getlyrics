@@ -26,7 +26,7 @@ BASE_URL = "http://lyricwiki.org"
 
 playback_id = xc.playback_current_id.wait.value
 res = xc.medialib_get_info(playback_id).wait
-current_track = res.value
+current_track = res.value.to_propdict
 
 artist, song = [current_track[:artist], current_track[:title]].map{ |s| s.gsub(' ', '_') }
 
