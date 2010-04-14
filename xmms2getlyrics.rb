@@ -14,7 +14,7 @@
 # http://github.com/oneman
 
 CLIENT = "xmms2rglptts"
-CLIENTVERSION = "0.1 Public Alpha"
+CLIENTVERSION = "0.666 doc no"
 
 require "xmmsclient"
 
